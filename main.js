@@ -36,4 +36,6 @@ function convertIt() {
 
 
 convertIt();
+
+//handle infinite srolling on sites like twitter
 window.addEventListener('scroll', convertIt);
