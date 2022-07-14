@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Bionic Reader",
+    "version": "0.0.1",
+    "description": "A web extension to turn the texts in any web-page to bionic form.",
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://*/*"
+            ]
+        }
+    ]
+}
